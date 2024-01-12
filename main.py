@@ -71,7 +71,7 @@ def index():
             recommendation = {}
 
             if label_name == 'Tidak ada DR (Tidak ada Retinopati Diabetes)':
-                message = ["Lakukan Kontrol Kadar Gula Darah Secara Berkala"]
+                message = ["Lakukan Kontrol Kadar Gula Darah Secara Berkala. Kadar gula yang terkontrol adalah kunci utama dalam mengelola diabets."]
                 general_recommendation = ["Cara mengontrol kadar gula darah\n",
                                           "1. Konsumsi makanan yang tepat: Menurut studi dalam jurnal Education and Health Promotion, melewatkan jadwal makan terlalu lama malah akan menyebabkan gula darah turun dan kemudian melonjak cepat.\n",
                                           "2. Mengontrol porsi makan: Diabetesi dengan berat badan normal juga sebaiknya menjaga porsi makannya sehingga tidak berujung obesitas.\n",
@@ -85,7 +85,7 @@ def index():
                     "general_recommendation": general_recommendation
                 }
             elif label_name == 'DR Ringan (Mild)':
-                message = ["Lakukan Kontrol Kadar Gula Darah Secara Berkala"]
+                message = ["Lakukan Kontrol Kadar Gula Darah Secara Berkala. Kadar gula yang terkontrol adalah kunci utama dalam mengelola diabets."]
                 general_recommendation = ["Cara mengontrol kadar gula darah\n",
                                           "1. Konsumsi makanan yang tepat: Menurut studi dalam jurnal Education and Health Promotion, melewatkan jadwal makan terlalu lama malah akan menyebabkan gula darah turun dan kemudian melonjak cepat.\n",
                                           "2. Mengontrol porsi makan: Diabetesi dengan berat badan normal juga sebaiknya menjaga porsi makannya sehingga tidak berujung obesitas.\n",
