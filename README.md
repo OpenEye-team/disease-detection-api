@@ -3,24 +3,30 @@ Download the model: https://drive.google.com/drive/folders/1_4sAxpLwCXU0wEy89biv
 ## How to Install and Run the Project
 To install and run the Open Eye project locally, please follow these steps:
 
- 1.Clone the repository from GitHub:    
+ 1. Clone the repository from GitHub:    
 ```bash
-
+ git@github.com:OpenEye-team/disease-detection-api.git
  ```
 
-Navigate to the project directory:
+2. Navigate to the project directory:
 ```bash
   cd disease-detection-api
 ```
 
-Install the project dependencies using a package manager:
+3. Install the project dependencies using a package manager:
 ```bash
   pip install -r requirements.txt
 ```
 
-Run the project
+4. Run the project
 ```bash
   python main.py
+```
+
+5. Test with some images
+```bash
+  cd test
+  python test.py
 ```
 
 Access the website locally at http://localhost:5000.
