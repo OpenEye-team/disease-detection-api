@@ -99,7 +99,7 @@ def index():
                     "general_recommendation": general_recommendation
                 }
             elif label_name == 'DR Sedang (Moderate)':
-                message = ["Lakukan konsultasi ke Dokter"]
+                message = ["Lakukan konsultasi ke Dokter. Lakukan Kontrol Kadar Gula Darah Secara Berkala. Kadar gula yang terkontrol adalah kunci utama dalam mengelola diabetes."]
                 general_recommendation = ["Hal-hal yang mungkin dilakukan setelah melakukan konsultasi bersama Dokter\n",
                                           "1. Injeksi mata: Dokter akan menyuntikan steroid pada mata untuk menghentikan peradangan dan mencegah pembentukan pembuluh darah baru. Suntikan anti-VEGF juga mungkin disarankan, yang dapat mengurangi pembengkakan di makula dan meningkatkan penglihatan.\n",
                                           "2. Operasi Leser: Operasi laser yang disebut fotokoagulasi mengurangi pembengkakan di retina dan menghilangkan pembuluh darah abnormal.\n",
