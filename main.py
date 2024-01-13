@@ -44,7 +44,7 @@ def predict(x):
 app = Flask(__name__)
 
 
-@app.route('/', methods=['POST', 'GET'])
+@app.route('/cek', methods=['POST'])
 def index():
     if request.method == "POST":
         file = request.files.get('file')
